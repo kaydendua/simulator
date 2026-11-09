@@ -81,6 +81,9 @@
   },
   "overrides": {
     "form-data": "4.0.6",
+    "@mojaloop/central-services-shared": {
+      "joi": "18.3.2"
+    },
     "on-headers": "1.1.0",
     "cross-spawn": "7.0.6",
     "shins": {
