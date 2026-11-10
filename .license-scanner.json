@@ -3,10 +3,6 @@
     "seq-queue@0.0.5": {
       "reason": "MIT per LICENSE file; empty license field in package.json (via mysql2)",
       "expires": "2027-01-01"
-    },
-    "argparse@3.0.4": {
-      "reason": "PSF-2.0 is the PSF License Agreement v2, the same terms as the already-allowed Python-2.0 (argparse@2.0.1); only the SPDX id changed (via central-services-shared > openapi-backend > js-yaml@5)",
-      "expires": "2027-01-01"
     }
   }
 }
