@@ -60,7 +60,7 @@
     "axios": "1.21.1",
     "base64url": "3.0.1",
     "blipp": "4.0.2",
-    "glob": "10.5.0",
+    "glob": "14.0.4",
     "hapi-swagger": "17.3.2",
     "joi": "17.13.9",
     "joi-currency-code": "3.0.2",
@@ -81,12 +81,14 @@
   },
   "overrides": {
     "cross-spawn": "7.0.6",
-    "undici": "8.11.2",
-    "qs": "6.16.0",
+    "@mojaloop/central-services-shared": {
+      "joi": "18.3.2"
+    },
+    "undici": "8.12.4",
+    "qs": "6.17.1",
     "jws": "4.0.1",
-    "glob": "10.5.0",
+    "glob": "14.0.4",
     "minimatch@3": "3.1.5",
-    "minimatch@9": "9.0.9",
     "replace": {
       "minimatch": "3.1.5"
     },
@@ -95,14 +97,14 @@
     "protobufjs@7": "7.6.5",
     "convict": "6.2.5",
     "@grpc/grpc-js": "1.14.5",
-    "@hapi/content": "6.0.2",
+    "@hapi/content": "6.0.3",
     "brace-expansion": "2.1.7",
-    "fast-uri": "3.1.8",
+    "fast-uri": "3.1.9",
     "js-yaml@4": "4.3.2",
     "js-yaml@5": "5.4.3",
     "mysql2": "3.23.1",
     "@hapi/wreck": "18.1.2",
-    "follow-redirects": "1.16.0",
+    "follow-redirects": "1.16.3",
     "moment": "2.31.0"
   },
   "standard-version": {
