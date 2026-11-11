@@ -1,6 +1,6 @@
 {
   "name": "sims",
-  "version": "12.3.6",
+  "version": "12.3.7",
   "private": true,
   "description": "A super-simple fsp simulator",
   "main": "src/index.js",
@@ -60,7 +60,7 @@
     "axios": "1.21.1",
     "base64url": "3.0.1",
     "blipp": "4.0.2",
-    "glob": "14.0.4",
+    "glob": "10.5.0",
     "hapi-swagger": "17.3.2",
     "joi": "17.13.9",
     "joi-currency-code": "3.0.2",
@@ -80,37 +80,30 @@
     "tapes": "^4.1.0"
   },
   "overrides": {
-    "form-data": "4.0.6",
-    "@mojaloop/central-services-shared": {
-      "joi": "18.3.2"
-    },
-    "on-headers": "1.1.0",
     "cross-spawn": "7.0.6",
-    "shins": {
-      "ajv": "6.12.3",
-      "ejs": "3.1.10",
-      "path-to-regexp": "0.1.12",
-      "sanitize-html": "2.12.1",
-      "jsonpointer": "5.0.0",
-      "markdown-it": "12.3.2",
-      "postcss": "8.4.31"
-    },
-    "widdershins": {
-      "markdown-it": "12.3.2",
-      "swagger2openapi": "7.0.8"
-    },
-    "undici": "6.24.1",
-    "yargs-parser": "21.1.1",
-    "qs": "6.17.1",
+    "undici": "8.11.2",
+    "qs": "6.16.0",
     "jws": "4.0.1",
-    "glob": "14.0.4",
-    "minimatch": "11.0.5",
-    "@grpc/grpc-js": "1.14.7",
+    "glob": "10.5.0",
+    "minimatch@3": "3.1.5",
+    "minimatch@9": "9.0.9",
+    "replace": {
+      "minimatch": "3.1.5"
+    },
+    "ajv@8.17.1": "8.18.0",
+    "handlebars": "4.7.10",
+    "protobufjs@7": "7.6.5",
     "convict": "6.2.5",
-    "argparse": "2.0.1",
-    "fast-xml-parser": "5.5.8",
-    "immutable": "5.1.9",
-    "ajv@8.17.1": "8.18.0"
+    "@grpc/grpc-js": "1.14.5",
+    "@hapi/content": "6.0.2",
+    "brace-expansion": "2.1.7",
+    "fast-uri": "3.1.8",
+    "js-yaml@4": "4.3.2",
+    "js-yaml@5": "5.4.3",
+    "mysql2": "3.23.1",
+    "@hapi/wreck": "18.1.2",
+    "follow-redirects": "1.16.0",
+    "moment": "2.31.0"
   },
   "standard-version": {
     "scripts": {
